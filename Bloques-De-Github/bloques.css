@@ -1,6 +1,47 @@
-div {
-    width: 300px;
-    border: 15px solid green;
-    padding: 50px;
+* {
+    font-family: sans-serif;
+}
+
+.container {
+    width: 800px;
+    margin: 0px;
+    background-color: #bfc9e6;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(49, 56, 119);
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+img.octocat {
+    height: 200px;
+}
+
+.lineaNegra {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
     margin: 20px;
-  }
+    padding: 20px;
+}
+
+.lineaVerde {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(32, 226, 161);
+    margin: 20px;
+    padding: 20px;
+}
+.lineaMorada {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(206, 104, 22);
+    margin: 20px;
+    padding: 20px;
+}
