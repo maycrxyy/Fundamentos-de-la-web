@@ -179,3 +179,9 @@ a {
     }
     .derecha{position:fixed;left: 35%;
     }
+    .sombra {
+        box-shadow: 5px 5px 5px #555;
+        position: relative;
+        bottom: 5px;
+        cursor: pointer;
+    }
